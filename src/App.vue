@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <Nav />
     <Home />
     <!-- <Test /> -->
   </div>
@@ -7,12 +8,15 @@
 
 <script>
 import Home from "./components/Home.vue";
+import Nav from "./components/Head.vue";
+
 // import Test from "./components/Test.vue";
 
 export default {
   name: "App",
   components: {
     Home,
+    Nav,
     // Test,
   },
 };
