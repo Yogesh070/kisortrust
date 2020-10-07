@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "material-icons": "^0.2.3",
     "vue": "^2.6.11",
     "vuesax": "^3.4.7"
   },

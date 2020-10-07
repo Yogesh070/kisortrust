@@ -1,6 +1,7 @@
 import Vue from 'vue'
-import { vsButton } from 'vuesax/dist/components'
+import Vuesax from 'vuesax'
 
 import 'vuesax/dist/vuesax.css'
+import 'material-icons/iconfont/material-icons.css'
 
-Vue.use(vsButton)
+Vue.use(Vuesax)
