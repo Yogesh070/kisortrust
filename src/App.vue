@@ -1,22 +1,31 @@
 <template>
   <div id="app">
-    <Nav />
-    <Home />
+    <!-- <Nav /> -->
+    <NavBar />
+    <!-- <Home /> -->
+    <TextBody />
+    <Footer />
     <!-- <Test /> -->
   </div>
 </template>
 
 <script>
-import Home from "./components/Home.vue";
-import Nav from "./components/Head.vue";
+// import Home from "./components/Home.vue";
+// import Nav from "./components/Head.vue";
+import TextBody from "./components/TextBody.vue";
+import Footer from "./components/Footer.vue";
+import NavBar from "./components/NavBar.vue";
 
 // import Test from "./components/Test.vue";
 
 export default {
   name: "App",
   components: {
-    Home,
-    Nav,
+    // Home,
+    // Nav,
+    NavBar,
+    TextBody,
+    Footer,
     // Test,
   },
 };

@@ -1,15 +1,17 @@
 <template>
-  <vscol1>
-    <div class="left-top">
-      <h1>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, quo
-        earum iusto blanditiis non doloribus voluptatibus quibusdam eligendi
-        labore assumenda.
-      </h1>
-      <a href="#">Lorem ipsum dolor sit amet.</a>
-    </div>
-    <div class="right-top" style="height: 100vh"></div>
-  </vscol1>
+  <div>
+    <vscol1>
+      <div class="left-top">
+        <h1>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, quo
+          earum iusto blanditiis non doloribus voluptatibus quibusdam eligendi
+          labore assumenda.
+        </h1>
+        <a href="#">Lorem ipsum dolor sit amet.</a>
+      </div>
+      <div class="right-top" style="height: 100vh"></div>
+    </vscol1>
+  </div>
 </template>
 
 <script>

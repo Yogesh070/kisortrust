@@ -18,8 +18,8 @@
         license
       </vs-navbar-item>
       <template #right>
-        <vs-button flat>Login</vs-button>
-        <vs-button>Get Started</vs-button>
+        <vs-button flat>Get Started</vs-button>
+        <vs-button>Dontate</vs-button>
       </template>
     </vs-navbar>
   </div>
